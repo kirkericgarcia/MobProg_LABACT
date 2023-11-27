@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   final String title;
-  final List people = ["Harold Rhey Pisos", "Robert Kiyosaki", "Banix"];
+  final List people = ["Tibor show", "Inday wanda", "Banix"];
   MyHomePage({super.key, required this.title});
 
   @override
@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
         title: Row(
           children: [
             Icon(Icons.home),
-            SizedBox(width: 😎,
+            SizedBox(width: 8,
             Container(
               margin: EdgeInsets.only(left: 15),
               child: Text(title),
